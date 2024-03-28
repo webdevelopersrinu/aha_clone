@@ -319,6 +319,7 @@ footer{
 }
 footer .col{
     padding: 12px 9px;
+    flex-grow: 1;
 }
 footer .col h4{
     font-weight: bolder;
@@ -429,9 +430,23 @@ footer .contact a{
     .Copyright div{
         padding: 6px 0;
     }
+    .lg-card-scroll{
+        grid-auto-columns: 45%;
+    }
 }
 
-
+@media screen and (max-width:450px){
+    .card-scroll{
+        grid-auto-columns: 50%;
+    }
+    .lg-card-scroll{
+        grid-auto-columns: 49%;
+    }
+    .lg-card-img{
+        width: 140px;
+        height: auto;
+    }
+}
 
 
 
